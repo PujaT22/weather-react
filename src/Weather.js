@@ -26,7 +26,7 @@ export default function Weather() {
     });
   }
   async function initializeMyAwesomeApp() {
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=8494b1ad77ba6516bc89e287ede99d76&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Dallas&appid=8494b1ad77ba6516bc89e287ede99d76&units=metric`;
     const response = await axios.get(apiUrl);
     setWeatherData(response);
   }
