@@ -11,7 +11,7 @@ function App() {
       </div>
       <footer>
         <h5 className="source-link container">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/PujaT22/weather-react" target="_blank" rel="noopener noreferrer">
             Open-source code{" "}
           </a>{" "}
           by Pooja
