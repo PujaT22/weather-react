@@ -1,0 +1,60 @@
+:root {
+  --default-font-family: "Gentium Book Plus", serif;
+  --background-color: #66bfbf;
+  --light-color: #eaf6f6;
+  --accent-color: #f76b8a;
+  --dark-color: #19191d;
+}
+.Weather {
+  font-family: var(--default-font-family);
+  padding: 16px;
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
+  background-color: rgba(256, 256, 256, 0.8);
+}
+.Weather form .btn-search {
+  background-color: var(--background-color);
+  color: var(--light-color);
+  border: none;
+  transition: all 100ms ease;
+}
+.Weather form .btn-search:hover {
+  background-color: var(--light-color);
+  color: var(--background-color);
+  border: 2px solid var(--background-color);
+}
+.Weather form .btn-current {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  border: none;
+  transition: all 100ms ease;
+}
+.Weather form .btn-current:hover {
+  background-color: var(--light-color);
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 0 5px 5px 0;
+}
+
+.Weather .details {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Weather .details .description {
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Weather h1 {
+  color: var(--accent-color);
+  font-size: 40px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.Weather h4 {
+  color: var(--dark-color);
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}

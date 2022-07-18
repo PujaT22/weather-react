@@ -1,0 +1,45 @@
+body {
+  background: lightblue;
+  font-family: "Gentium Book Plus", serif;
+  font-size: 16px;
+}
+.source-link {
+  padding: 10px;
+}
+.source-link a {
+  text-decoration: none;
+  color: #fcfefe;
+}
+
+.float-left {
+  float: left !important;
+}
+.icon-day-label {
+  font-size: 40px;
+  color: #878787;
+  text-align: center;
+}
+.week-day-label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  color: #19191d;
+  font-size: 25px;
+  text-align: center;
+}
+.week-day-temps {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.week-day-temps .min-temp {
+  font-size: 15px;
+  font-weight: 400;
+  color: #232327;
+}
+.week-day-temps .max-temp {
+  font-size: 20px;
+  font-weight: 600;
+  color: #232327;
+}
+.formatted-date {
+  font-size: 25px;
+}

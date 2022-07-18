@@ -1,0 +1,38 @@
+.WeatherTemperature {
+  display: block;
+  margin: 0 auto;
+}
+.WeatherTemperature .float-left {
+  float: left !important;
+}
+.WeatherTemperature img {
+  display: inline-block;
+  height: 100px;
+  margin-top: 0px;
+  vertical-align: top;
+  width: 100px;
+}
+.WeatherTemperature b {
+  color: #19191d;
+  display: inline;
+  font-size: 64px;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: normal;
+  line-height: 100px;
+  width: auto;
+}
+.WeatherTemperature .units {
+  position: relative;
+  font-size: 20px;
+  top: -28px;
+  color: #19191d !important;
+}
+.WeatherTemperature a {
+  text-decoration: none;
+  color: #66bfbf !important;
+  font-weight: 500 !important;
+}
+.WeatherTemperature .active {
+  color: #19191d !important;
+}
